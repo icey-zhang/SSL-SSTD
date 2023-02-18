@@ -25,22 +25,22 @@ tensorflow
 1.run the SSL.py to obtain the encoder features for detection
 1.1 Train
 
-change the path of the dataset and set the train_modal=True
+change the path of the dataset called **hyp_img** and set the **train_modal=True**
 ```
 python SSL.py
 ```
 1.2 Test
 
-set the train_modal=False
+set the **train_modal=False**
 ```
 python SSL.py
 ```
 2. open the test folder in the matlab software
 change some paths in the test.m
 
-- change the path of the decoder features called encoderfile_our
-- change the path of save results called savefile_our
-- change the path of dataset called file
+- change the path of the decoder features called **encoderfile_our**
+- change the path of save results called **savefile_our**
+- change the path of dataset called **file**
 
 run the test.m
 
