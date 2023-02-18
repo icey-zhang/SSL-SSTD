@@ -104,7 +104,7 @@ for tfirst = 4
    clear x_encoder x_a
    epsilon = 0.7;
    number = round(epsilon*bands);
-   encoderfile_our = 'G:\open\endedata1000';
+   encoderfile_our = 'G:\open\endedata10000';
    file_encoder = sprintf('%s\\%s_encoder10000.mat',encoderfile_our,name);
    load(file_encoder); 
    x_a = hyperNormalize(reshape(x_encoder,row,col,size(x_encoder,2)));
