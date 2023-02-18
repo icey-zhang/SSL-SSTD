@@ -34,11 +34,11 @@ for tfirst = 4
 %     save(save_pathACE,'ace_out');
 %     
 %     colormap('jet');imagesc(ace_out);
-%     set(gca,'position',[0 0 1 1]);  % ȥ�ױ�
+%     set(gca,'position',[0 0 1 1]);  % È¥°×±ß
 %     axis('off')
 %     print(gcf,'-djpeg','-r1000',sprintf('%s\\resultmap\\%s.png',savefile_ACE,name));
 
-%  %% CSCR
+%% CSCR
 %     tic
 %     cscr_out_1 = cscr_detector(x_input,d);
 %     toc
@@ -51,7 +51,7 @@ for tfirst = 4
 %     save(save_pathCSCR,'cscr_out');
 %     
 %     colormap('jet');imagesc(cscr_out);
-%     set(gca,'position',[0 0 1 1]);  % ȥ�ױ�
+%     set(gca,'position',[0 0 1 1]);  % È¥°×±ß
 %     axis('off')
 %     print(gcf,'-djpeg','-r1000',sprintf('%s\\resultmap\\%s.png',savefile_CSCR,name));
 %% CEM
@@ -67,7 +67,7 @@ for tfirst = 4
 %     save(save_pathCEM,'cem_out');
 %     
 %     colormap('jet');imagesc(cem_out);
-%     set(gca,'position',[0 0 1 1]);  % ȥ�ױ�
+%     set(gca,'position',[0 0 1 1]);  % È¥°×±ß
 %     axis('off')
 %     print(gcf,'-djpeg','-r1000',sprintf('%s\\resultmap\\%s.png',savefile_CEM,name));
 %% hCEM
@@ -83,7 +83,7 @@ for tfirst = 4
 %     save(save_pathhCEM,'hcem_out');
 %     
 %     colormap('jet');imagesc(hcem_out);
-%     set(gca,'position',[0 0 1 1]);  % ȥ�ױ�
+%     set(gca,'position',[0 0 1 1]);  % È¥°×±ß
 %     axis('off')
 %     print(gcf,'-djpeg','-r1000',sprintf('%s\\resultmap\\%s.png',savefile_hCEM,name));
 %% E_CEM
@@ -96,7 +96,7 @@ for tfirst = 4
 %    FAR_1_ecem =-trapz(FPR_1_ecem,thre_1_ecem);
 %    
 %     colormap('jet');imagesc(ecem_out);
-%     set(gca,'position',[0 0 1 1]);  % ȥ�ױ�
+%     set(gca,'position',[0 0 1 1]);  % È¥°×±ß
 %     axis('off')
 %     print(gcf,'-djpeg','-r1000',sprintf('%s\\resultmap\\%s.png',savefile_ECEM,name)); 
 
@@ -118,12 +118,12 @@ for tfirst = 4
    FAR_1_our =-trapz(FPR_1_our,thre_1_our);
    savefile_our = 'G:\open\our_selected_1000';
     colormap('jet');imagesc(our_out);
-    set(gca,'position',[0 0 1 1]);  % ȥ�ױ�
+    set(gca,'position',[0 0 1 1]);  % È¥°×±ß
     axis('off')
     print(gcf,'-djpeg','-r1000',sprintf('%s\\resultmap\\%s.png',savefile_our,name)); 
     
  
-%% ��ֵ
+%% ´æÖµ
 %     result(tfirst-2,1) = max(max(max(x_input)));
 %     result(tfirst-2,2) = bands;
 % %     result(tfirst-2,3) = auc_1_cscr;
