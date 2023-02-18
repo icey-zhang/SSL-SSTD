@@ -16,8 +16,10 @@ This is code for paper: [Self-spectral learning with GAN based spectral--spatial
 ```
 
 ## Environment
+```
 matlab 2017a
-
 tensorflow
+```
 
-
+## Contact
+If you have any question, please contact me with email (jq.zhangcn@foxmail.com).
