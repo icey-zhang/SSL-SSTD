@@ -23,12 +23,12 @@ tensorflow
 
 ## How to use
 1.run the SSL.py to obtain the encoder features for detection
-### Train
+1.1 Train
 change the path of the dataset and set the train_modal=True
 ```
 python SSL.py
 ```
-### Test
+1.2 Test
 set the train_modal=False
 ```
 python SSL.py
